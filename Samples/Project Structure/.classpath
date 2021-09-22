@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="NotepadLib"/>
+	<classpathentry kind="src" path="BaseApi"/>
+	<classpathentry kind="src" path="MiTools"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="BaseApi/common/CartesObj.jar"/>
+	<classpathentry kind="lib" path="BaseApi/common/com4j.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<demo>
+  <message>Hello, I'm Cartes, the intelligent robot of RPA Suite.
+This example shows how to create processes using Java libraries with Cartes.
+
+     1 - Create a class library with a class to handle the application.
+         Inherited from MyCartesAPIBase.
+         
+     2 - Create a Java Project. Create a
+         class that implements the process, inherited from MyCartesProcessBase.
+  </message>
+</demo>
