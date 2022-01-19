@@ -97,7 +97,7 @@ public abstract class MyCartesProcess extends MyCartes // This abstract class al
                      Thread.sleep(10000);
                  }
              }
-             else
+             else 
 			 {
 				 throw new Exception("Cartes is not installed. Please install Robot Cartes from the RPA Suite installation.");
 			 }

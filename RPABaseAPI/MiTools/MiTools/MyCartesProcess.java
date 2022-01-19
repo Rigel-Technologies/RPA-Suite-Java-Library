@@ -102,7 +102,7 @@ public abstract class MyCartesProcess extends MyCartes // This abstract class al
              }
              else 
 			 {
-				 throw new Exception("Cartes is not installed. Please install Robot Cartes from the RPA Suite installation.");
+				throw new Exception("Cartes is not installed. Please install Robot Cartes from the RPA Suite installation.");
 			 }
          }else{
              //fCartes = CartesObj.ClassFactory.createCartesObj(); //CartesObj.ClassFactory.createCartesObj(); //
