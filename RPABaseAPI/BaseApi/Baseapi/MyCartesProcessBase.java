@@ -18,7 +18,6 @@ public class MyCartesProcessBase extends MyCartesProcess {
     {
         try
         {
-            System.out.println("CurrentPath() --->"+CurrentPath());
         	cartes().merge(CurrentPath()+"\\BaseApi\\Cartes\\RPABaseAPI.cartes.rpa");    
             super.MergeLibrariesAndLoadVariables();
         }
