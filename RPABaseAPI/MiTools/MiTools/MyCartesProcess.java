@@ -95,16 +95,15 @@ public abstract class MyCartesProcess extends MyCartes // This abstract class al
                  }
                  if (!ok)
                  {
-                    
-                     Process p = Runtime.getRuntime().exec(CartesPath());
                      fCartes = CartesObj.ClassFactory.createCartesObj(); 
                      Thread.sleep(10000);
-                     //p.waitFor(); 
                  }
 
              }
              else 
-                 throw new Exception("Cartes is not installed. Please install Robot Cartes from the RPA Suite installation.");
+			 {
+				throw new Exception("Cartes is not installed. Please install Robot Cartes from the RPA Suite installation.");
+			 }
          }else{
              //fCartes = CartesObj.ClassFactory.createCartesObj(); //CartesObj.ClassFactory.createCartesObj(); //
              return fCartes;
