@@ -80,9 +80,7 @@ public abstract class MyCartesProcess extends MyCartes // This abstract class al
      try{
          if (fCartes == null)
          {
-            
              File f = new File(CartesPath());    
-        
              if ((CartesPath().length() > 0) && f.exists())
              {
                  boolean ok = false;                         
@@ -95,18 +93,15 @@ public abstract class MyCartesProcess extends MyCartes // This abstract class al
                  }
                  if (!ok)
                  {
-                    
-                     Process p = Runtime.getRuntime().exec(CartesPath());
                      fCartes = CartesObj.ClassFactory.createCartesObj(); 
                      Thread.sleep(10000);
-                     //p.waitFor(); 
                  }
-
              }
-             else 
-                 throw new Exception("Cartes is not installed. Please install Robot Cartes from the RPA Suite installation.");
+             else
+			 {
+				 throw new Exception("Cartes is not installed. Please install Robot Cartes from the RPA Suite installation.");
+			 }
          }else{
-             //fCartes = CartesObj.ClassFactory.createCartesObj(); //CartesObj.ClassFactory.createCartesObj(); //
              return fCartes;
          }
      }catch(Exception e){
